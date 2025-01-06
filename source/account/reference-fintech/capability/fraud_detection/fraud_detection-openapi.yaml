@@ -1,0 +1,114 @@
+openapi: 3.0.0
+info:
+  title: Fraud Detection API
+  description: API for detecting fraud risks and providing risk assessments for banking sessions and money movement transactions.
+  version: 1.0.0
+paths:
+  /assess-session-risk:
+    post:
+      summary: Assess Session Risk
+      description: Evaluates the risk level of a banking session based on user behavior and context
+      operationId: assessSessionRisk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SessionRiskRequest'
+      responses:
+        '200':
+          description: Successful risk assessment
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SessionRiskResponse'
+        '400':
+          description: Bad request
+        '500':
+          description: Internal server error
+  /assess-transaction-risk:
+    post:
+      summary: Assess Transaction Risk
+      description: Evaluates the risk level of a money movement transaction
+      operationId: assessTransactionRisk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransactionRiskRequest'
+      responses:
+        '200':
+          description: Successful risk assessment
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransactionRiskResponse'
+        '400':
+          description: Bad request
+        '500':
+          description: Internal server error
+components:
+  schemas:
+    SessionRiskRequest:
+      type: object
+      properties:
+        sessionId:
+          type: string
+        userId:
+          type: string
+        deviceInfo:
+          type: object
+        ipAddress:
+          type: string
+        timestamp:
+          type: string
+      required:
+        - sessionId
+        - userId
+    SessionRiskResponse:
+      type: object
+      properties:
+        riskLevel:
+          type: string
+          enum: [low, medium, high]
+        riskScore:
+          type: number
+        factors:
+          type: array
+          items:
+            type: string
+      required:
+        - riskLevel
+        - riskScore
+    TransactionRiskRequest:
+      type: object
+      properties:
+        transactionId:
+          type: string
+        amount:
+          type: number
+        sourceAccount:
+          type: string
+        destinationAccount:
+          type: string
+        timestamp:
+          type: string
+      required:
+        - transactionId
+        - amount
+    TransactionRiskResponse:
+      type: object
+      properties:
+        riskLevel:
+          type: string
+          enum: [low, medium, high]
+        riskScore:
+          type: number
+        recommendedAction:
+          type: string
+          enum: [approve, review, reject]
+      required:
+        - riskLevel
+        - riskScore
+        - recommendedAction
