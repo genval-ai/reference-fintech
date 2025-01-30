@@ -9,6 +9,7 @@ CheckFree was founded in 1981 as an electronic payment processing company and ha
 
 ## Provider Connection Types
 
+<a name="checkfree_pay"></a>
 ### CheckFree Pay
 CheckFree Pay payment service integration using CheckFree Pay APIs for payment processing and management.
 
@@ -17,6 +18,7 @@ CheckFree Pay payment service integration using CheckFree Pay APIs for payment p
 |----------|------|
 | Connection Type Code | `checkfree_pay` |
 
+<a name="api_key"></a>
 #### API Key
 The API key provided by CheckFree Pay for authentication
 
@@ -29,6 +31,7 @@ The API key provided by CheckFree Pay for authentication
 | Requried | False |
 | Example Value | ck_live_1234567890abcdef |
 
+<a name="merchant_id"></a>
 #### Merchant ID
 Your unique merchant identifier assigned by CheckFree Pay
 
@@ -41,6 +44,7 @@ Your unique merchant identifier assigned by CheckFree Pay
 | Requried | False |
 | Example Value | MERCH123456 |
 
+<a name="environment"></a>
 #### Environment
 The CheckFree Pay environment (production or sandbox)
 
@@ -53,6 +57,7 @@ The CheckFree Pay environment (production or sandbox)
 | Requried | False |
 | Example Value | sandbox |
 
+<a name="webhook_secret"></a>
 #### Webhook Secret
 Secret key for validating webhook notifications from CheckFree Pay
 
