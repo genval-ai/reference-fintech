@@ -9,6 +9,7 @@ We power global commerce by providing exceptional payments technology and expert
 
 ## Provider Connection Types
 
+<a name="worldpay_default"></a>
 ### Worldpay Default Connection
 Default connection type for integrating with Worldpay payment services
 
@@ -17,6 +18,7 @@ Default connection type for integrating with Worldpay payment services
 |----------|------|
 | Connection Type Code | `worldpay_default` |
 
+<a name="merchant_code"></a>
 #### Merchant Code
 Your Worldpay merchant code identifier
 
@@ -29,6 +31,7 @@ Your Worldpay merchant code identifier
 | Requried | False |
 | Example Value | MERCHANT123 |
 
+<a name="api_key"></a>
 #### API Key
 Your Worldpay API key for authentication
 
@@ -41,6 +44,7 @@ Your Worldpay API key for authentication
 | Requried | False |
 | Example Value | T23MKEY98B1234567 |
 
+<a name="environment"></a>
 #### Environment
 Worldpay environment (test or production)
 
@@ -53,6 +57,7 @@ Worldpay environment (test or production)
 | Requried | False |
 | Example Value | test |
 
+<a name="notification_secret"></a>
 #### Notification Secret
 Secret key for validating Worldpay webhook notifications
 
