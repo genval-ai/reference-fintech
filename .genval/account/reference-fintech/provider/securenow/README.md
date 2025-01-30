@@ -18,7 +18,7 @@ Connect to Fiserv SecureNow APIs for authentication and authorization services.
 |----------|------|
 | Connection Type Code | `fiserv_securenow` |
 
-<a name="_client_id"></a>
+<a name="fiserv_securenow_client_id"></a>
 #### Client ID
 The client identifier provided by Fiserv SecureNow
 
@@ -31,7 +31,7 @@ The client identifier provided by Fiserv SecureNow
 | Requried | False |
 | Example Value | abc123def456 |
 
-<a name="_client_secret"></a>
+<a name="fiserv_securenow_client_secret"></a>
 #### Client Secret
 The client secret key provided by Fiserv SecureNow
 
@@ -44,7 +44,7 @@ The client secret key provided by Fiserv SecureNow
 | Requried | False |
 | Example Value | xyz789secret |
 
-<a name="_api_endpoint"></a>
+<a name="fiserv_securenow_api_endpoint"></a>
 #### API Endpoint
 The base URL for the SecureNow API endpoint
 
@@ -57,7 +57,7 @@ The base URL for the SecureNow API endpoint
 | Requried | False |
 | Example Value | https://api.securenow.fiserv.com |
 
-<a name="_organization_id"></a>
+<a name="fiserv_securenow_organization_id"></a>
 #### Organization ID
 The unique identifier for your organization in SecureNow
 
