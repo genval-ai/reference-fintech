@@ -18,7 +18,7 @@ Connect to Finastra's Fusion platform for bank profile and document management
 |----------|------|
 | Connection Type Code | `finastra_fusion` |
 
-<a name="_client_id"></a>
+<a name="finastra_fusion_client_id"></a>
 #### Client ID
 OAuth client identifier for Finastra API
 
@@ -31,7 +31,7 @@ OAuth client identifier for Finastra API
 | Requried | True |
 | Example Value | fin_client_123456 |
 
-<a name="_client_secret"></a>
+<a name="finastra_fusion_client_secret"></a>
 #### Client Secret
 OAuth client secret for Finastra API
 
@@ -44,7 +44,7 @@ OAuth client secret for Finastra API
 | Requried | True |
 | Example Value | fin_secret_abcdef |
 
-<a name="_region"></a>
+<a name="finastra_fusion_region"></a>
 #### Region
 Geographic region for API endpoint
 
