@@ -9,6 +9,7 @@ Finastra is a global financial technology company offering a broad portfolio of 
 
 ## Provider Connection Types
 
+<a name="finastra_fusion"></a>
 ### Finastra Fusion
 Connect to Finastra's Fusion platform for bank profile and document management
 
@@ -17,6 +18,7 @@ Connect to Finastra's Fusion platform for bank profile and document management
 |----------|------|
 | Connection Type Code | `finastra_fusion` |
 
+<a name="client_id"></a>
 #### Client ID
 OAuth client identifier for Finastra API
 
@@ -29,6 +31,7 @@ OAuth client identifier for Finastra API
 | Requried | True |
 | Example Value | fin_client_123456 |
 
+<a name="client_secret"></a>
 #### Client Secret
 OAuth client secret for Finastra API
 
@@ -41,6 +44,7 @@ OAuth client secret for Finastra API
 | Requried | True |
 | Example Value | fin_secret_abcdef |
 
+<a name="region"></a>
 #### Region
 Geographic region for API endpoint
 
