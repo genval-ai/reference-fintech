@@ -18,7 +18,7 @@ Integration with Jack Henry's core banking platform for managing bank profiles a
 |----------|------|
 | Connection Type Code | `jack_henry_core` |
 
-<a name="_api_key"></a>
+<a name="jack_henry_core_api_key"></a>
 #### API Key
 Authentication key for Jack Henry Banking API
 
@@ -31,7 +31,7 @@ Authentication key for Jack Henry Banking API
 | Requried | True |
 | Example Value | jh_live_key_123456 |
 
-<a name="_institution_id"></a>
+<a name="jack_henry_core_institution_id"></a>
 #### Institution ID
 Your financial institution's unique identifier
 
@@ -44,7 +44,7 @@ Your financial institution's unique identifier
 | Requried | True |
 | Example Value | FI123456 |
 
-<a name="_environment"></a>
+<a name="jack_henry_core_environment"></a>
 #### Environment
 The Jack Henry environment (production or sandbox)
 
