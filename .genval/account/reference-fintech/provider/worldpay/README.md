@@ -18,7 +18,7 @@ Default connection type for integrating with Worldpay payment services
 |----------|------|
 | Connection Type Code | `worldpay_default` |
 
-<a name="_merchant_code"></a>
+<a name="worldpay_default_merchant_code"></a>
 #### Merchant Code
 Your Worldpay merchant code identifier
 
@@ -31,7 +31,7 @@ Your Worldpay merchant code identifier
 | Requried | False |
 | Example Value | MERCHANT123 |
 
-<a name="_api_key"></a>
+<a name="worldpay_default_api_key"></a>
 #### API Key
 Your Worldpay API key for authentication
 
@@ -44,7 +44,7 @@ Your Worldpay API key for authentication
 | Requried | False |
 | Example Value | T23MKEY98B1234567 |
 
-<a name="_environment"></a>
+<a name="worldpay_default_environment"></a>
 #### Environment
 Worldpay environment (test or production)
 
@@ -57,7 +57,7 @@ Worldpay environment (test or production)
 | Requried | False |
 | Example Value | test |
 
-<a name="_notification_secret"></a>
+<a name="worldpay_default_notification_secret"></a>
 #### Notification Secret
 Secret key for validating Worldpay webhook notifications
 
