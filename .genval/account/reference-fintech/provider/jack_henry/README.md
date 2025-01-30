@@ -9,6 +9,7 @@ Jack Henry Banking is a leading provider of core banking software and technology
 
 ## Provider Connection Types
 
+<a name="jack_henry_core"></a>
 ### Jack Henry Core Banking
 Integration with Jack Henry's core banking platform for managing bank profiles and settings
 
@@ -17,6 +18,7 @@ Integration with Jack Henry's core banking platform for managing bank profiles a
 |----------|------|
 | Connection Type Code | `jack_henry_core` |
 
+<a name="api_key"></a>
 #### API Key
 Authentication key for Jack Henry Banking API
 
@@ -29,6 +31,7 @@ Authentication key for Jack Henry Banking API
 | Requried | True |
 | Example Value | jh_live_key_123456 |
 
+<a name="institution_id"></a>
 #### Institution ID
 Your financial institution's unique identifier
 
@@ -41,6 +44,7 @@ Your financial institution's unique identifier
 | Requried | True |
 | Example Value | FI123456 |
 
+<a name="environment"></a>
 #### Environment
 The Jack Henry environment (production or sandbox)
 
