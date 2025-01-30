@@ -18,7 +18,7 @@ CheckFree Pay payment service integration using CheckFree Pay APIs for payment p
 |----------|------|
 | Connection Type Code | `checkfree_pay` |
 
-<a name="_api_key"></a>
+<a name="checkfree_pay_api_key"></a>
 #### API Key
 The API key provided by CheckFree Pay for authentication
 
@@ -31,7 +31,7 @@ The API key provided by CheckFree Pay for authentication
 | Requried | False |
 | Example Value | ck_live_1234567890abcdef |
 
-<a name="_merchant_id"></a>
+<a name="checkfree_pay_merchant_id"></a>
 #### Merchant ID
 Your unique merchant identifier assigned by CheckFree Pay
 
@@ -44,7 +44,7 @@ Your unique merchant identifier assigned by CheckFree Pay
 | Requried | False |
 | Example Value | MERCH123456 |
 
-<a name="_environment"></a>
+<a name="checkfree_pay_environment"></a>
 #### Environment
 The CheckFree Pay environment (production or sandbox)
 
@@ -57,7 +57,7 @@ The CheckFree Pay environment (production or sandbox)
 | Requried | False |
 | Example Value | sandbox |
 
-<a name="_webhook_secret"></a>
+<a name="checkfree_pay_webhook_secret"></a>
 #### Webhook Secret
 Secret key for validating webhook notifications from CheckFree Pay
 
